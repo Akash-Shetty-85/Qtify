@@ -1,9 +1,18 @@
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     /* margin: 1rem; */
-    background-color: aqua;
-    height:8vh;
+    background-color: var(--css-primary);
+    height:74px;
+    width:100vw;
+    padding: 0 32px;
+
     
+}
+.searchfield{
+    width: 568px;
+    height: 48px;
+    background-color:var(--css-white);
+    border-radius: 8px 0px 0px 8px;
 }
