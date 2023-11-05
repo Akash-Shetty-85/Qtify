@@ -10,9 +10,44 @@
 
     
 }
+
+.logo{
+    width: 60px;
+    height: 35px;
+    /* padding: 20px 0 0 32px;÷ */
+}
+.search{
+display: flex;
+align-items: center;
+border: 1px solid black;
+border-radius: 8px;
+
+}
+
+
 .searchfield{
     width: 568px;
     height: 48px;
+    color: var(--css-black);
+    font-weight: 400;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:var(--css-white);
     border-radius: 8px 0px 0px 8px;
+    /* border: 1px solid black; */
+    flex: 1;
+}
+
+
+.feedback_button{
+    align-items: center;
+    width: 170px;
+    height: 47px;
+    border-radius: 12px;
+    border: 1px;
+    background-color: var(--css-black);
+    color: var(--css-primary);
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
