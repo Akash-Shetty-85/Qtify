@@ -4,7 +4,7 @@ const SearchField = () => {
   return (
     <div className='search'>
         <input className='searchfield' placeholder='Search a album of your choice' />
-        <img alt='search icon' src='./searchicon' width={66} height={48}/>
+        <img alt='searchicon' src='./searchicon.png' width={66} height={48} className='searchicon'/>
     </div>
   )
 }

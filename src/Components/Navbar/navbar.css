@@ -19,11 +19,17 @@
 .search{
 display: flex;
 align-items: center;
-border: 1px solid black;
+/* border: 1px solid black; */
 border-radius: 8px;
 
 }
-
+.searchicon{
+    border:1px solid black;
+    border-left: none;
+    background-color: var(--css-white);
+    border-radius: 0 8px 8px 0px;
+    padding: 5px;
+}
 
 .searchfield{
     width: 568px;
@@ -34,7 +40,7 @@ border-radius: 8px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:var(--css-white);
     border-radius: 8px 0px 0px 8px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     flex: 1;
 }
 
