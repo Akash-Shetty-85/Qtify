@@ -4,6 +4,7 @@
     height: 270px;
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 .text{
@@ -12,8 +13,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #FFF;
-    /* text-align: center; */
+    
     font-family: Poppins;
     font-size: 32px;
     font-style: normal;
@@ -21,11 +21,10 @@
     line-height: normal;
     width: 556px;
     height: 100px;
-    margin-top: 97px;
-    /* flex-shrink: 0; */
+    
 }
 .image{
     width:212px;
     height: 212px;
-    margin-top: 50px;
+   
 }
