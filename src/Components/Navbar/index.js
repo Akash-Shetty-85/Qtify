@@ -9,7 +9,7 @@ const index = () => {
     <div className='navbar'>
        <Logo/>
        <SearchField/>
-       <Button/>
+       <Button>Give Feedback</Button>
     </div>
 
   )
