@@ -1,5 +1,5 @@
 .card-section{
-    margin: 15px;
+    margin: 10px; 
 }
 
 .cs-header{   
@@ -12,16 +12,16 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .cs-album-name{
+    text-transform: capitalize;
     font-weight: 600;
     font-family: 'Poppins';
 }
 .cs-more{
-
-
     color: var(--Primary-400, #34C94B);
-    text-align: right;
+    /* text-align: right; */
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
+    padding: 5px;
 }

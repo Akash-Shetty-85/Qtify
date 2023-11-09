@@ -9,7 +9,8 @@ function App() {
     <div className="App">
       <Navbar/>
       <HeroSection/>
-      <CardSection/>
+      <CardSection albums={'top'}/>
+      <CardSection albums={'new'}/>
     </div>
   );
 }
