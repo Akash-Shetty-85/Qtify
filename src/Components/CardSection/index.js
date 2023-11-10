@@ -16,6 +16,7 @@ const CardSection = ({albums}) => {
     }
     useEffect(() => {
         FetchCardData()
+         // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
     
 

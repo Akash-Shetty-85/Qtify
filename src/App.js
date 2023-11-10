@@ -7,10 +7,10 @@ import Navbar from './Components/Navbar'
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <HeroSection/>
-      <CardSection albums={'top'}/>
-      <CardSection albums={'new'}/>
+      <Navbar />
+      <HeroSection />
+      <CardSection albums={'top'} />
+      <CardSection albums={'new'} />
     </div>
   );
 }
