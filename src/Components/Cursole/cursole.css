@@ -1,0 +1,19 @@
+.cursole {
+    margin-right: 10px;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    /* top: 50%; */
+    transform: translateY(-25%);
+
+}
+
+.arrow-left {
+    left: 0
+}
+
+.arrow-right {
+    right: 0;
+}
