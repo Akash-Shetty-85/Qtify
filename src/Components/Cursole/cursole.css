@@ -1,19 +1,23 @@
 .cursole {
-    margin-right: 10px;
+    margin-right: 15px;
     position: relative;
 }
 
 .arrow {
     position: absolute;
-    /* top: 50%; */
-    transform: translateY(-25%);
-
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    z-index: 2;
+    width: 24px;
+    height: 24px;
 }
 
 .arrow-left {
-    left: 0
+    left: -12;
 }
 
 .arrow-right {
+    
     right: 0;
 }

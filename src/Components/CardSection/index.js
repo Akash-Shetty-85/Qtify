@@ -33,7 +33,7 @@ const CardSection = ({ albums }) => {
         onClick={()=>{
           setiscopplesed(!iscopplesed)
         }}
-        >{iscopplesed ? "show all" :"Collapas"}</p>
+        >{iscopplesed ? "Collapas":"Show all" }</p>
       </div>
         {
           iscopplesed ?

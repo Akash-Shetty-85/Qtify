@@ -15,6 +15,8 @@ const Cursole = (props) => {
     // Handle the case when cardsData is undefined or not an array
     return <p>No data available</p>;
   }
+  const prevButtonId = 'arrow-left-' + Math.random().toString(36).substring(2, 15);
+  const nextButtonId = 'arrow-right-' + Math.random().toString(36).substring(2, 15);
 
   return (
     <div className='cursole'>
@@ -23,7 +25,7 @@ const Cursole = (props) => {
         slidesPerView={7}
         spaceBetween={30}
         
-        navigation={{ nextEl: `.arrow-right`, prevEl: ".arrow-left" }}
+        navigation={{ nextEl: `#${nextButtonId}`, prevEl: `#${prevButtonId}`}}
         virtual
       >
         {cardsData.map((carddata) => (
@@ -42,8 +44,8 @@ const Cursole = (props) => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="arrow-left arrow"><img src='left.png'/></div>
-      <div className="arrow-right arrow"><img src='right.png'/></div>
+      <div id={prevButtonId} className="arrow-left arrow"><img src='left.png' alt='left arrow'/></div>
+      <div id={nextButtonId} className="arrow-right arrow"><img src='right.png' alt='right-arrow'/></div>
     </div>
   );
 };
