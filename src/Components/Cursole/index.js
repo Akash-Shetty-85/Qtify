@@ -9,7 +9,7 @@ import './cursole.css';
 const Cursole = (props) => {
     const cardsData = props.carddata;
     
-  console.log( cardsData );
+  // console.log( cardsData );
 
   if (!cardsData || !Array.isArray(cardsData)) {
     // Handle the case when cardsData is undefined or not an array

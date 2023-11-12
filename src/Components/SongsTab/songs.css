@@ -1,0 +1,45 @@
+.songatab {
+    font-size: larger;
+    font-weight: 600;
+    color: var(--css-white);
+    margin: 15px;
+}
+
+.songs-genera {
+    color: var(--css-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.songs-genera ul {
+    display: flex;
+    margin-left: 5px;
+}
+
+.songs-genera li {
+    list-style: none;
+    margin-right: 30px;
+    color: var(--css-white);
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+.songs-genera li.active {
+    
+    position: relative;
+     
+   } 
+
+  .underline {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width:68px;
+    background-color: #34C94B;
+    border-radius: 2px;
+    /* margin-bottom: 5px; */
+  }
