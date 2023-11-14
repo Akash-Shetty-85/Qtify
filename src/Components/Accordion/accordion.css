@@ -1,5 +1,8 @@
-div{
-    color: #FFF;
+.cs-faqs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -15,3 +18,13 @@ div{
     font-weight: 600;
     line-height: normal;
 }
+
+/* .arrow {
+    color: var(--Primary-400, #34C94B);
+    text-align: right;÷
+    font-family: Font Awesome 6 Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+} */
