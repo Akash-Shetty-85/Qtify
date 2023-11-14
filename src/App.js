@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Accordion from './Components/Accordion';
 import CardSection from './Components/CardSection';
 import HeroSection from './Components/HeroSection';
 import Navbar from './Components/Navbar'
@@ -13,6 +14,7 @@ function App() {
       <CardSection albums={'top'} />
       <CardSection albums={'new'} />
       <SongsTab/>
+      <Accordion/>
     </div>
   );
 }
