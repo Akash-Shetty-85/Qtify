@@ -55,10 +55,10 @@ import './accordion.css'
 
 
 const Accordion = () => {
-    const [accordionItems, setAccordionItems] = useState([
+    const accordionItems = [
       { id: 1, title: 'Is QTify free to use?', content: 'Yes! It is 100% free, and has 0% ads!' },
       { id: 2, title: 'Can I download and listen to songs offline?', content: `Sorry, unfortunately we don't provide the service to download any songs.` },
-    ]);
+    ];
   
     const [openItemId, setOpenItemId] = useState(null);
   
