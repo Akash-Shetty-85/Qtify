@@ -13,6 +13,11 @@
     width: 24px;
     height: 24px;
 }
+.card-pill{
+    display: flex;
+    margin-top: 1%;
+    margin-left:3% ;
+}
 
 .arrow-left {
     left: -12;

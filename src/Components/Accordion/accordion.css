@@ -4,6 +4,7 @@
     align-items: center;
     overflow: hidden;
     color: var(--css-black);
+    margin-top: 5rem;
 }
 
 .accordion-title-faq {
